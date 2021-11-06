@@ -1,1 +1,76 @@
 /* Other rules */
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: blueviolet;
+}
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  /* background-color: hotpink; */
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  font-size: 30px;
+  border-bottom: solid 1px grey;
+  text-align: center;
+}
+
+.button-counter {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(242, 234, 250);
+  align-items: center;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.add-counter {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: lavenderblush; */
+  /* border: 1px solid blue; */
+}
+
+.btn {
+  width: 2vw;
+  height: 2vw;
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+p {
+  font-size: 40px;
+  margin: 30px;
+}
+
+.reset {
+  width: 100px;
+  height: 40px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-add-counter {
+  margin: 40px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+  width: 20%;
+  height: 50px;
+}
+
+.first-line {
+  display: flex;
+  align-items: center;
+  /* border: solid 1px green; */
+}
